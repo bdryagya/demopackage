@@ -1,0 +1,19 @@
+{
+    "name": "bakhari/demopackage",
+    "description": "Composer Demo Library",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yagya Chaudhary",
+            "email": "mail@bdryagya.com.np"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Bakhari\\DemoPackage\\": "src/"
+        }
+    }
+}
